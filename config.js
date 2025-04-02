@@ -60,14 +60,14 @@ module.exports = {
     HANDLERS: process.env.HANDLERS || '.,',
     STICKER_DATA: process.env.STICKER_DATA || "Raganork",
     BOT_NAME: process.env.BOT_NAME || 'Raganork',
-    AUDIO_DATA: process.env.AUDIO_DATA === undefined || process.env.AUDIO_DATA === "private" ? 'ꪶ͢٭𝑺𝜣𝑼𝑹𝛢𝑽𝑲𝑳¹¹ꫂ;Raganork MD bot;https://i.imgur.com/P7ziVhr.jpeg' : process.env.AUDIO_DATA,
+    AUDIO_DATA: process.env.AUDIO_DATA === undefined || process.env.AUDIO_DATA === "private" ? 'ꪶ͢٭𝑺𝜣𝑼𝑹𝛢𝑽𝑲𝑳¹¹ꫂ;Zero XMD bot;https://files.catbox.moe/3jpwr1.jpg' : process.env.AUDIO_DATA,
     TAKE_KEY: process.env.TAKE_KEY || '',
-    MODE: process.env.MODE || 'private',
-    WARN: process.env.WARN || '4',
+    MODE: process.env.MODE || 'public',
+    WARN: process.env.WARN || '3',
     ANTILINK_WARN: process.env.ANTILINK_WARN || '',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
-        API_KEY: process.env.HEROKU_API_KEY || '',
+        API_KEY: process.env.HEROKU_API_KEY || 'HRKU-702773b4-bb36-489e-9b1b-1e0d2b064180',
         APP_NAME: process.env.HEROKU_APP_NAME || ''
     },
     DATABASE_URL: DATABASE_URL,
